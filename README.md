@@ -4,7 +4,7 @@ This is a GitHub repo for the TL Summer School of Software Development Assignmen
 
 A simple and responsive website built with **HTML**, **CSS**, and **Vanilla JavaScript** to showcase upcoming tech events. Designed as part of a learning assignment to practice semantic HTML, responsive layout, JavaScript interactivity, and GitHub Pages deployment.
 ## Live Demo
- [View Live on GitHub Pages]()
+ [View Live on GitHub Pages](https://pathrividyapraveen.github.io/Tinkerer-s-Lab-Summer-School-SD-Assignment-2/index.html)
 ## Features
 
 -  **Landing Page** with event cards
@@ -20,12 +20,19 @@ A simple and responsive website built with **HTML**, **CSS**, and **Vanilla Java
 
 event-showcase/
 │
-├── index.html # Landing page with multiple events
-├── event_cp.html # Detailed event information about CP contest
-├── event_web.html # Detailed event information about Web Development Hackathon
-├── event_ai.html # Detailed event information about Deep Learning Workshop
-├── style.css # Styling using Flexbox and dark mode
-├── script.js # JS interactivity (theme toggle + timer)
-└── README.md # Project overview and instructions
+├── index.html # Landing page with multiple events  
+
+├── event_cp.html # Detailed event information about CP contest  
+
+├── event_web.html # Detailed event information about Web Development Hackathon  
+
+├── event_ai.html # Detailed event information about Deep Learning Workshop  
+
+├── style.css # Styling using Flexbox and dark mode  
+
+├── script.js # JS interactivity (theme toggle + timer)  
+
+└── README.md # Project overview and instructions  
+
 
 
