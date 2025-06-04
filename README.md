@@ -18,8 +18,8 @@ A simple and responsive website built with **HTML**, **CSS**, and **Vanilla Java
 -  **JavaScript Interactivity**
 ## Project Structure  
 
-event-showcase/
-│
+event-showcase/  
+
 ├── index.html # Landing page with multiple events  
 
 ├── event_cp.html # Detailed event information about CP contest  
