@@ -1,0 +1,113 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.navbar a, .navbar button {
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: #f9f9f9;
+}
+
+.card a {
+  margin-top: auto;
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+}
+.gallery {
+  padding: 2rem;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-grid img {
+  border-radius: 8px;
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.countdown {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #e91e63;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  border-color: #555;
+}
+
+body.dark-mode .navbar,
+body.dark-mode footer {
+  background: #1a1a1a;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
